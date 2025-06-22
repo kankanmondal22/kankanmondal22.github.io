@@ -4,7 +4,7 @@
 set -e
 
 echo "🛠️ Building Vite project..."
-npm run build
+bun run build
 
 echo "🚀 Switching to deployment branch..."
 git checkout deployment || git checkout -b deployment
