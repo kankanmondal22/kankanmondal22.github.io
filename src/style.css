@@ -1,1 +1,5 @@
 /* @import "tailwindcss"; */
+::section {
+    background: #3b8777;
+    color: #ffffff;
+}

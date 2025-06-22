@@ -23,6 +23,29 @@
             rel="stylesheet"
         />
         <style>
+            ::selection {
+                background: #3b8777;
+                color: #ffffff;
+            }
+            /* CUSTOM SCROLLBAR */
+            ::-webkit-scrollbar {
+                width: 12px; /* vertical */
+                height: 10px; /* horizontal */
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #f0f0f0; /* light background for track */
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #3b8777; /* your color for the thumb */
+                border-radius: 10px;
+                border: 2px solid #f0f0f0; /* padding effect */
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background-color: #2fa169; /* darker on hover */
+            }
             .tab-titles {
                 display: flex;
                 margin: 20px 0 40px;
